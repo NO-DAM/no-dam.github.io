@@ -2,7 +2,7 @@ export const experienceData = [
     {
         id: 1,
         company: 'AIM Lab (Monash University)',
-        jobtitle: 'Research Assistance - RA',
+        jobtitle: 'Research Assistant - RA',
         startYear: '3/2023',
         endYear: 'Present',
         desc: ['Assist research in the lab lead by PhD Hu.', 'Research projects focus on applications of computer vision in medical field.',]

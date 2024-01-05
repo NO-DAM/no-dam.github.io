@@ -4,7 +4,7 @@ import {
     orangeThemegirl, pinkThemeboy, pinkThemegirl, purpleThemeboy, purpleThemegirl, redThemeboy, redThemegirl, yellowThemeboy,
     yellowThemegirl,eduBlack,eduBlue,eduGreen,eduOrange,eduPink,eduPurple,eduRed,eduYellow,expBlack,expBlue,expGreen,expOrange,
     expPink,expPurple,expRed,expYellow,contactsBlack,contactsBlue,contactsGreen,contactsOrange,contactsPink,contactsPurple,
-    contactsRed,contactsYellow
+    contactsRed,contactsYellow, pubImg
 } from './images'
 
 
@@ -220,6 +220,7 @@ export const orangeThemeDark = {
     aboutimg2: orangeThemegirl,
     eduimg: eduOrange,
     expimg: expOrange,
+    pubimg: pubImg,
     contactsimg: contactsOrange
 }
 

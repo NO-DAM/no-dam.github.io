@@ -7,9 +7,19 @@ import six from '../assets/svg/projects/six.svg'
 import seven from '../assets/svg/projects/seven.svg'
 import eight from '../assets/svg/projects/eight.svg'
 import twelve from '../assets/svg/projects/twelve.svg'
-
+import ten from '../assets/svg/projects/ten.svg'
 
 export const projectsData = [
+    {
+        id: 4,
+        projectName: 'Sign Language Dataset & Translator',
+        projectDesc: 'This project is a large video dataset of American Sign Language and a trained model that "translates" the sign language into sentences.',
+        tags: ['Django', 'Tailwind CSS'],
+        code: '',
+        demo: '',
+        image: ten
+    },
+
     {
         id: 1,
         projectName: 'MadParking',
@@ -17,26 +27,31 @@ export const projectsData = [
         tags: ['React', 'CSS', 'Material Ui'],
         code: 'https://github.com/AiNzo0alGowN/MadParking',
         demo: '',
-        image: eight
+        image: six
     },
+
     {
         id: 2,
         projectName: 'NurViD',
-        projectDesc: 'NurViD is a large video dataset with expert-level annotation for nursing procedure activity understanding.',
+        projectDesc: 'NurViD is a large video dataset with expert-level annotation for deep learning training to understand nursing procedure activities.',
         tags: ['Django', 'Tailwind CSS'],
         code: 'https://github.com/minghu0830/NurViD-benchmark',
         demo: '',
         image: twelve
     },
-    // {
-    //     id: 3,
-    //     projectName: 'Weather App',
-    //     projectDesc: 'Weather forecast systems and applications predict weather conditions based on multiple parameters.',
-    //     tags: ['Django', 'CSS', 'Material Ui'],
-    //     code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-    //     demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-    //     image: three
-    // },
+
+
+    {
+        id: 3,
+        projectName: 'LSTM Model on Futures Trading',
+        projectDesc: 'This is a machine learning model architecture that uses LSTM with other layers for the futures market. The overall performance is better than the traditional LSTM model that is used in the market.',
+        tags: ['Django', 'Tailwind CSS'],
+        code: '',
+        demo: '',
+        image: seven
+    },
+
+
 ]
 
 

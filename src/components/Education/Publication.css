@@ -1,0 +1,195 @@
+/* .publication {
+    min-height: 10vh;
+} */
+
+.publication-body {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: left;
+    width: 100%;
+    color: hsla(117, 56%, 49%, 0.702);
+}
+
+.publication-description {
+    width: 100%;
+    flex: 0.65;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.publication-description > h1{
+    font-size: 3.5rem;
+    font-family: var(--primaryFont);
+    margin-bottom: 2rem;
+}
+
+.publication-card {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: flex-start;
+    width: 700px;
+    height: 170px;
+    padding: 1.5rem;
+    border-radius: 20px;
+    margin-bottom: 1.5rem;
+    transition: background-color 200ms ease-in-out;
+    overflow: hidden;
+}
+
+.pubcard-img {
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.pubcard-img > img {
+    width: 40px;
+}
+
+.publication-details{
+    margin-left: 0.6rem;
+}
+
+.publication-details > h6 {
+    font-family: var(--primaryFont);
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.publication-details > h4 {
+    font-family: var(--primaryFont);
+    font-size: 1.225rem;
+    font-weight: 600;
+}
+
+.publication-details > h5 {
+    font-family: var(--primaryFont);
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+
+.publication-image {
+    box-sizing: border-box;
+    padding: 1rem;
+    flex: 0.35;
+    margin-top: 1rem;
+    pointer-events: none;
+}
+
+.publication-image > img {
+    width: 100%;
+}
+
+.publication-card .publication--desc{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    transform: translate(0%,-200%);
+    border-radius: 20px 20px 20px 20px;
+    transition: transform 0.9s;
+    line-height: 150%;
+    display:flex;
+    align-items: center;
+    justify-content: left;
+    font-family: var(--primaryFont);
+}
+  
+.publication-card:hover .publication--desc{
+    transform: translate(0%,0%);
+}
+
+@media (min-width: 992px) and (max-width: 1380px) {
+
+}
+
+
+@media screen and (max-width: 992px) {
+    .publication {
+        min-height: 100%;
+    }
+    .publication-image {
+        display: none;
+    }
+    .publication-description {
+        flex: 1;
+        margin: auto;
+    }    
+    .publication-description > h1{
+        font-size: 3.2rem;
+    }
+    .publication-card {
+        width: 100%;
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .publication-description > h1{
+        font-size: 3rem;
+        margin-bottom: 2rem;
+        align-self: center;
+    }
+    .publication-description {
+        padding: 1rem;
+    }
+    .publication-card {
+        padding: 1rem;
+        margin-bottom: 1.5rem;
+        height: 300px;
+    }
+    .pubcard-img {
+        border-radius: 50%;
+        width: 45px;
+        height: 45px;
+    }
+    
+    .pubcard-img > img {
+        width: 30px;
+    }
+    .publication-details > h6 {
+        font-size: 0.85rem;
+        margin-bottom: 0.45rem;
+    }
+    
+    .publication-details > h4 {
+        font-size: 1.125rem;
+        line-height: 126%;
+    }
+    
+    .publication-details > h5 {
+        font-size: 1.05rem;
+        line-height: 126%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .publication-description > h1{
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+}
+  
+@media only screen and (min-device-width: 320px) and (max-device-width: 
+  480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
+
+}
+
+
+@media only screen and (device-width: 768px) {
+
+}

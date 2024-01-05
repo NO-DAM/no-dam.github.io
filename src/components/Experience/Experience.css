@@ -99,7 +99,7 @@
     height: 100%;
     left: 0;
     top: 0;
-    transform: translate(0%, -100%);
+    transform: translate(0%, -200%);
     border-radius: 20px 20px 20px 20px;
     transition: transform 0.9s;
     line-height: 150%;
@@ -157,7 +157,7 @@
     .experience-card {
         padding: 1rem;
         margin-bottom: 1.5rem;
-        height: 130px;
+        height: 200px;
     }
 
     .expcard-img {
